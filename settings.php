@@ -6,6 +6,8 @@ $keywords = 'Перила в Алматы, Перила, Перила в Аст�
 $phone = '+7 (702) 328 - 11 -28';
 $phoneLink = '+77023281128';
 $site = 'перила.kz';
+$wp = 'https://wa.me/77023281128';
+$telegram = 'https://t.me/smarkovich13';
 
 const TELEGRAM_TOKEN = '';
 const URL_DB = '127.0.0.1';

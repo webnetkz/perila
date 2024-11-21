@@ -99,6 +99,7 @@ section#start {
   display: flex;
   justify-content: space-between;
   position: relative;
+  width: 100%;
   top: 20px;
   backdrop-filter: blur(10px);
   height: 50px;
@@ -109,6 +110,36 @@ section#start {
   color: var(--white);
   font-size: 1.3rem;
   text-decoration: none;
+}
+
+.promo-messangers {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  bottom: 2rem;
+  right: 1.3rem;
+}
+
+.promo-messangers > a > img {
+  width: 3rem;
+}
+
+.promo-text {
+  position: relative;
+  top: 60vh;
+  left: 1rem;
+  width: 50%;
+  padding: 10px;
+  border-radius: var(--radius);
+  font-size: 3rem;
+  color: var(--white);
+  backdrop-filter: blur(10px);
+}
+
+.promo-text > span {
+  display: block;
+  color: var(--color-theme);
+  font-size: 2.5rem;
 }
 
 
@@ -134,7 +165,7 @@ section#content {
   background: var(--gray);
 }
 
-section#content > h1 {
+section#content > h2 {
   font-size: 2rem;
   margin: 1rem;
 }
@@ -206,6 +237,17 @@ section#content > h1 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.content-description {
+  position: relative;
+  width: 70vw;
+  left: 2rem;
+}
+
+.content-description > h1, h2 {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 body > footer {

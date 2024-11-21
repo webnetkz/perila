@@ -3,7 +3,7 @@
 require_once './settings.php';
 require_once './app/libs/Dev.php';
 
-$x = new Dev(true);
+//$x = new Dev(true);
 
 ?>
 
@@ -23,7 +23,7 @@ $x = new Dev(true);
         <link rel="stylesheet" href="./assets/css/styles.css">
         <link rel="stylesheet" href="./assets/css/mobile.css">
 
-        <link rel="shortcut icon" type="image/png" href="./assets/logo512.png">
+        <link rel="icon" type="image/x-icon" href="./favicon.ico">
         <link rel="apple-touch-icon" href="./assets/logo512.png">
         <link rel="manifest" href="./manifest.json"> 
       </head>
