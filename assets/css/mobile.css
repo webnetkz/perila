@@ -3,4 +3,15 @@
     width: 100vw;
     height: 90vh;
   }
+
+  .promo-text {
+    top: 60vh;
+    width: 80vw;
+  }
+
+  body > footer {
+    text-align: center;
+    height: 200px;
+    justify-content: space-around;
+  }
 }

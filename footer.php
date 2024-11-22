@@ -1,3 +1,12 @@
+    <div class="messangers">
+      <a href="<?=$wp;?>" target="_blank">
+        <img src="./assets/imgs/icons/whatsapp.png" alt="whatsapp">
+      </a>
+      <a href="<?=$telegram;?>" target="_blank">
+        <img src="./assets/imgs/icons/telegram.png" alt="telegram" class="telegram-icon">
+      </a>
+    </div>
+    
     <footer>
       <div class="contacts">
         <a href="tel:<?=$phoneLink;?>" class="promo-phone"><?=$phone;?></a>
@@ -9,8 +18,6 @@
   
 
   <script type="module" src="./assets/js/cursor.js"></script>
-  <script type="module" src="./assets/js/Burger.js"></script>
-
 
   <script src="./assets/js/main.js"></script>
   <script>

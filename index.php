@@ -4,18 +4,22 @@ require_once './header.php';
 
 <section id="start">
   <div class="promo-container">
+    <div class="promo-image promo-1"></div>
+    <div class="promo-image promo-2"></div>
+    <div class="promo-image promo-3"></div>
+    <div class="promo-image promo-4"></div>
+
     <div class="promo-header">
       <a href="tel:<?=$phoneLink;?>" class="promo-phone"><?=$phone;?></a>
-      <burger-x></burger-x>
-    </div>
-
-    <div class="promo-messangers">
-      <a href="<?=$wp;?>" target="_blank">
-        <img src="./assets/imgs/icons/whatsapp.png" alt="whatsapp">
-      </a>
-      <a href="<?=$telegram;?>" target="_blank">
-        <img src="./assets/imgs/icons/telegram.png" alt="telegram">
-      </a>
+      
+      <div class="promo-messangers">
+        <a href="<?=$wp;?>" target="_blank">
+          <img src="./assets/imgs/icons/whatsapp.png" alt="whatsapp">
+        </a>
+        <a href="<?=$telegram;?>" target="_blank">
+          <img src="./assets/imgs/icons/telegram.png" alt="telegram" class="telegram-icon">
+        </a>
+      </div>
     </div>
     
     <div class="promo-text">
@@ -29,14 +33,46 @@ require_once './header.php';
 <section id="content">
   <h2>Балясины</h2>
   <div class="content-container">
-    <div class="content-item"></div>
-    <div class="content-item"></div>
-    <div class="content-item"></div>
-    <div class="content-item"></div>
-    <div class="content-item"></div>
-    <div class="content-item"></div>
-    <div class="content-item"></div>
-    <div class="content-item"></div>
+    <div class="content-item">
+      <div class="content-item-description">
+        <span class="price">9 999 тг.</span>
+      </div>
+    </div>
+    <div class="content-item">
+      <div class="content-item-description">
+        <span class="price">9 999 тг.</span>
+      </div>
+    </div>
+    <div class="content-item">
+      <div class="content-item-description">
+        <span class="price">9 999 тг.</span>
+      </div>
+    </div>
+    <div class="content-item">
+      <div class="content-item-description">
+        <span class="price">9 999 тг.</span>
+      </div>
+    </div>
+    <div class="content-item">
+      <div class="content-item-description">
+        <span class="price">9 999 тг.</span>
+      </div>
+    </div>
+    <div class="content-item">
+      <div class="content-item-description">
+        <span class="price">9 999 тг.</span>
+      </div>
+    </div>
+    <div class="content-item">
+      <div class="content-item-description">
+        <span class="price">9 999 тг.</span>
+      </div>
+    </div>
+    <div class="content-item">
+      <div class="content-item-description">
+        <span class="price">9 999 тг.</span>
+      </div>
+    </div>
   </div>
 
   <div class="content-description">
