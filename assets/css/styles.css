@@ -140,12 +140,13 @@ section#start {
 }
 
 .promo-messangers > a > img {
-  width: 40px;
+  height: 40px;
 }
 
 .promo-messangers > a > img.telegram-icon {
-  width: 36px;
+  height: 38px;
   margin-left: 6px;
+  margin-bottom: 1px;
 }
 
 .messangers {
@@ -184,88 +185,102 @@ section#start {
   font-size: 2.5rem;
 }
 
-section#content {
+section#content,
+section#slider {
   margin: 1rem;
   padding: 1rem;
+  padding-bottom: 5rem;
   border-radius: var(--radius);
   min-height: 50vh;
   width: calc(100vw - 2rem);
   background: var(--gray);
 }
 
-section#content > h2 {
+section#content > h2,
+section#slider > h2 {
   font-size: 2rem;
   margin: 1rem;
 }
 
-.content-container {
+.content-container,
+.slider-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.content-item {
+.slider-item:nth-child(1) {
+  background: url("../imgs/slider/1.webp");
+}
+
+.slider-item:nth-child(2) {
+  background: url("../imgs/slider/2.webp");
+}
+
+.slider-item:nth-child(3) {
+  background: url("../imgs/slider/3.webp");
+}
+
+.slider-item:nth-child(4) {
+  background: url("../imgs/slider/4.webp");
+}
+
+.slider-item:nth-child(5) {
+  background: url("../imgs/slider/5.webp");
+}
+
+.slider-item:nth-child(6) {
+  background: url("../imgs/slider/6.webp");
+}
+
+.content-item:nth-child(1) {
+  background: url("../imgs/content/1.jpeg");
+}
+
+.content-item:nth-child(2) {
+  background: url("../imgs/content/2.jpeg");
+}
+
+.content-item:nth-child(3) {
+  background: url("../imgs/content/3.jpeg");
+}
+
+.content-item:nth-child(4) {
+  background: url("../imgs/content/4.jpeg");
+}
+
+.content-item:nth-child(5) {
+  background: url("../imgs/content/5.jpeg");
+}
+
+.content-item:nth-child(6) {
+  background: url("../imgs/content/6.jpeg");
+}
+
+.content-item:nth-child(7) {
+  background: url("../imgs/content/7.jpeg");
+}
+
+.content-item:nth-child(8) {
+  background: url("../imgs/content/8.jpeg");
+}
+
+.content-container .content-item,
+.slider-container .slider-item {
   position: relative;
   width: 23vw;
   height: 55vh;
   margin-bottom: 1rem;
   border-radius: var(--radius);
-}
 
-.content-item:nth-child(1) {
-  background: url("../imgs/content/1.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.content-item:nth-child(2) {
-  background: url("../imgs/content/2.jpeg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.content-item:nth-child(3) {
-  background: url("../imgs/content/3.jpeg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.content-item:nth-child(4) {
-  background: url("../imgs/content/4.jpeg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.content-item:nth-child(5) {
-  background: url("../imgs/content/5.jpeg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.content-item:nth-child(6) {
-  background: url("../imgs/content/6.jpeg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.content-item:nth-child(7) {
-  background: url("../imgs/content/7.jpeg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.content-item:nth-child(8) {
-  background: url("../imgs/content/8.jpeg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+.slider-container .slider-item {
+  width: 15vw;
+  height: 45vh;
 }
 
 .content-item-description {
@@ -284,7 +299,8 @@ section#content > h2 {
   text-align: center;
 }
 
-.content-description {
+.content-description,
+.slider-description {
   position: relative;
   width: 70vw;
   left: 2rem;
@@ -293,6 +309,16 @@ section#content > h2 {
 .content-description > h1, h2 {
   margin-top: 1rem;
   margin-bottom: 2rem;
+}
+
+.slider-price {
+  text-align: center;
+  font-size: 2rem;
+  color: var(--white);
+  background: url("../imgs/promo-3.jpg");
+  background-size: cover;
+  padding: 1rem;
+  border-radius: var(--radius);
 }
 
 body > footer {
