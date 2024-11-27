@@ -1,5 +1,19 @@
 @media (max-width: 1200px) {
-  .content-item {
+  #slider.slider-price {
+    position: relative;
+  }
+
+  #slider > div.slider-price > p {
+    backdrop-filter: blur(33px);
+    margin-top: 6px;
+    border-radius: var(--radius);
+  }
+
+  #slider > .slider-container {
+    display: none;
+  }
+  
+  .content-container .content-item {
     width: 100vw;
     height: 90vh;
   }
@@ -14,4 +28,8 @@
     height: 200px;
     justify-content: space-around;
   }
+
+  /* .container {
+    display: inherit;
+  } */
 }

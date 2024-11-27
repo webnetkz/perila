@@ -32,6 +32,11 @@ require_once './header.php';
 
 <section id="slider">
   <h2>Эксклюзивное предложение</h2>
+
+  <?php
+    require_once './slider.php';
+  ?>
+
   <div class="slider-container">
     <div class="slider-item"></div>
     <div class="slider-item"></div>
