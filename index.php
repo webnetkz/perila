@@ -10,7 +10,7 @@ require_once './header.php';
     <div class="promo-image promo-4"></div>
 
     <div class="promo-header">
-      <a href="tel:<?=$phoneLink;?>" class="promo-phone"><?=$phone;?></a>
+      <a href="tel:<?=$phoneLink;?>" class="promo-phone"><b><p>Связаться с нами</p> <?=$phone;?></b></a>
       
       <div class="promo-messangers">
         <a href="<?=$wp;?>" target="_blank">
@@ -23,7 +23,7 @@ require_once './header.php';
     </div>
     
     <div class="promo-text">
-      Ваш надежный партнер
+      Роскошь в каждой детали
       <span><?=$site?></span>
     </div>
   </div>
@@ -43,14 +43,13 @@ require_once './header.php';
     <div class="slider-item"></div>
     <div class="slider-item"></div>
     <div class="slider-item"></div>
-    <div class="slider-item"></div>
   </div>
 
   <div class="slider-price">
-    <p>Цена за комплект <b>35 000тг</b> состоящий из двух штук </p>
+    <p>Цена за комплект <b>85 300тг</b> состоящий из трех штук </p>
     <p>Цена за овал <b>27 800тг</b></p>
     <p>Цена за прямую <b>9 000тг</b></p>
-    <p>Цена за столб <b>85 300тг</b></p>
+    <p>Цена за столб <b>48 500тг</b></p>
   </div>
 
   <div class="slider-description">
@@ -76,7 +75,7 @@ require_once './header.php';
   <div class="content-container">
     <div class="content-item">
       <div class="content-item-description">
-        <span class="price">9 000 тг.</span>
+        <span class="price">85 300 тг.</span>
       </div>
     </div>
     <div class="content-item">
@@ -91,17 +90,17 @@ require_once './header.php';
     </div>
     <div class="content-item">
       <div class="content-item-description">
-        <span class="price">9 000 тг.</span>
-      </div>
-    </div>
-    <div class="content-item">
-      <div class="content-item-description">
-        <span class="price">9 000 тг.</span>
-      </div>
-    </div>
-    <div class="content-item">
-      <div class="content-item-description">
         <span class="price">27 800 тг.</span>
+      </div>
+    </div>
+    <div class="content-item">
+      <div class="content-item-description">
+        <span class="price">9 000 тг.</span>
+      </div>
+    </div>
+    <div class="content-item">
+      <div class="content-item-description">
+        <span class="price">9 000 тг.</span>
       </div>
     </div>
     <div class="content-item">
@@ -123,13 +122,13 @@ require_once './header.php';
 
     <div class="content-item">
       <div class="content-item-description">
-        <span class="price">48 500 тг.</span>
+        <span class="price">9 000 тг.</span>
       </div>
     </div>
 
     <div class="content-item">
       <div class="content-item-description">
-        <span class="price">28 650 тг.</span>
+        <span class="price">9 000 тг.</span>
       </div>
     </div>
 
@@ -147,7 +146,7 @@ require_once './header.php';
 
     <div class="content-item">
       <div class="content-item-description">
-        <span class="price">28 500 тг.</span>
+        <span class="price">28 650 тг.</span>
       </div>
     </div>
 
@@ -159,7 +158,7 @@ require_once './header.php';
 
     <div class="content-item">
       <div class="content-item-description">
-        <span class="price">26 650 тг.</span>
+        <span class="price">28 650 тг.</span>
       </div>
     </div>
 
@@ -183,13 +182,13 @@ require_once './header.php';
 
     <div class="content-item">
       <div class="content-item-description">
-        <span class="price">9 000 тг.</span>
+        <span class="price">26 650 тг.</span>
       </div>
     </div>
 
     <div class="content-item">
       <div class="content-item-description">
-        <span class="price">9 000 тг.</span>
+        <span class="price">9 800 тг.</span>
       </div>
     </div>
 
@@ -254,6 +253,16 @@ require_once './header.php';
 
     <h2>Заключение</h2>
     <p>Балясины — это не только важная часть конструкции, но и элемент, который влияет на внешний вид вашего дома. Мы предлагаем широкий ассортимент балясин, которые подойдут для различных стилей и обеспечат безопасность и комфорт. Выбирайте балясины у нас и создавайте идеальные лестницы и ограждения для вашего дома!</p>
+    
+    
+  </div>
+  
+  <hr>
+
+  <div class="video">
+    <video controls>
+      <source src="./assets/movies/1.mp4" type="video/mp4">
+    </video>
   </div>
 
 </section>

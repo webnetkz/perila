@@ -88,9 +88,6 @@
     .slide-5 {
       background: url("./assets/imgs/slider/5.webp");
     }
-    .slide-6 {
-      background: url("./assets/imgs/slider/6.webp");
-    }
 
     .slide {
       min-height: 100px;
@@ -120,7 +117,6 @@
           <div class="slide slide-3"></div>
           <div class="slide slide-4"></div>
           <div class="slide slide-5"></div>
-          <div class="slide slide-6"></div>
         </div>
       </div>
     </div>
@@ -145,7 +141,6 @@
       };
 
       function getWindowWidth() {
-        console.log(document.body.scrollWidth);
         return Math.max(
           document.body.scrollWidth,
           document.documentElement.scrollWidth,

@@ -3,6 +3,14 @@
     position: relative;
   }
 
+  .promo-messangers {
+    display: none;
+  }
+
+  .video video {
+    max-width: 100%;
+  }
+
   #slider > div.slider-price > p {
     backdrop-filter: blur(33px);
     margin-top: 6px;

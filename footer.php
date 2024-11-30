@@ -9,7 +9,7 @@
     
     <footer>
       <div class="contacts">
-        <a href="tel:<?=$phoneLink;?>" class="promo-phone"><?=$phone;?></a>
+        <a href="tel:<?=$phoneLink;?>" class="promo-phone"><b><p>Связаться с нами</p> <?=$phone;?></b></a>
       </div>
       <div class="copyright">
         <a href="<?=$site;?>"><?=$site;?> <sup>©</sub></a> <?=date('Y');?>
