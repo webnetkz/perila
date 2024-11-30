@@ -24,7 +24,7 @@ require_once './header.php';
     
     <div class="promo-text">
       Ваш надежный партнер
-      <span>Перила.kz</span>
+      <span><?=$site?></span>
     </div>
   </div>
 
@@ -48,8 +48,9 @@ require_once './header.php';
 
   <div class="slider-price">
     <p>Цена за комплект <b>35 000тг</b> состоящий из двух штук </p>
-    <p>Цена за овал <b>26500тг</b></p>
-    <p>Цена за прямую <b>8500тг</b></p>
+    <p>Цена за овал <b>27 800тг</b></p>
+    <p>Цена за прямую <b>9 000тг</b></p>
+    <p>Цена за столб <b>85 300тг</b></p>
   </div>
 
   <div class="slider-description">
@@ -75,42 +76,138 @@ require_once './header.php';
   <div class="content-container">
     <div class="content-item">
       <div class="content-item-description">
-        <span class="price">9 999 тг.</span>
+        <span class="price">9 000 тг.</span>
       </div>
     </div>
     <div class="content-item">
       <div class="content-item-description">
-        <span class="price">9 999 тг.</span>
+        <span class="price">27 800 тг.</span>
       </div>
     </div>
     <div class="content-item">
       <div class="content-item-description">
-        <span class="price">9 999 тг.</span>
+        <span class="price">27 800 тг.</span>
       </div>
     </div>
     <div class="content-item">
       <div class="content-item-description">
-        <span class="price">9 999 тг.</span>
+        <span class="price">9 000 тг.</span>
       </div>
     </div>
     <div class="content-item">
       <div class="content-item-description">
-        <span class="price">9 999 тг.</span>
+        <span class="price">9 000 тг.</span>
       </div>
     </div>
     <div class="content-item">
       <div class="content-item-description">
-        <span class="price">9 999 тг.</span>
+        <span class="price">27 800 тг.</span>
       </div>
     </div>
     <div class="content-item">
       <div class="content-item-description">
-        <span class="price">9 999 тг.</span>
+        <span class="price">48 500 тг.</span>
       </div>
     </div>
     <div class="content-item">
       <div class="content-item-description">
-        <span class="price">9 999 тг.</span>
+        <span class="price">48 500 тг.</span>
+      </div>
+    </div>
+
+    <div class="content-item">
+      <div class="content-item-description">
+        <span class="price">9 000 тг.</span>
+      </div>
+    </div>
+
+    <div class="content-item">
+      <div class="content-item-description">
+        <span class="price">48 500 тг.</span>
+      </div>
+    </div>
+
+    <div class="content-item">
+      <div class="content-item-description">
+        <span class="price">28 650 тг.</span>
+      </div>
+    </div>
+
+    <div class="content-item">
+      <div class="content-item-description">
+        <span class="price">8 500 тг.</span>
+      </div>
+    </div>
+
+    <div class="content-item">
+      <div class="content-item-description">
+        <span class="price">37 150 тг.</span>
+      </div>
+    </div>
+
+    <div class="content-item">
+      <div class="content-item-description">
+        <span class="price">28 500 тг.</span>
+      </div>
+    </div>
+
+    <div class="content-item">
+      <div class="content-item-description">
+        <span class="price">8 500 тг.</span>
+      </div>
+    </div>
+
+    <div class="content-item">
+      <div class="content-item-description">
+        <span class="price">26 650 тг.</span>
+      </div>
+    </div>
+
+    <div class="content-item">
+      <div class="content-item-description">
+        <span class="price">26 650 тг.</span>
+      </div>
+    </div>
+
+    <div class="content-item">
+      <div class="content-item-description">
+        <span class="price">26 650 тг.</span>
+      </div>
+    </div>
+
+    <div class="content-item">
+      <div class="content-item-description">
+        <span class="price">26 650 тг.</span>
+      </div>
+    </div>
+
+    <div class="content-item">
+      <div class="content-item-description">
+        <span class="price">9 000 тг.</span>
+      </div>
+    </div>
+
+    <div class="content-item">
+      <div class="content-item-description">
+        <span class="price">9 000 тг.</span>
+      </div>
+    </div>
+
+    <div class="content-item">
+      <div class="content-item-description">
+        <span class="price">9 800 тг.</span>
+      </div>
+    </div>
+
+    <div class="content-item">
+      <div class="content-item-description">
+        <span class="price">9 800 тг.</span>
+      </div>
+    </div>
+
+    <div class="content-item">
+      <div class="content-item-description">
+        <span class="price">9 800 тг.</span>
       </div>
     </div>
   </div>
