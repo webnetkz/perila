@@ -363,3 +363,18 @@ body > footer {
 .video video {
   border-radius: var(--radius);
 }
+
+p.btn-center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+button.btn {
+  border: none;
+  color: var(--white);
+  background: var(--color-theme);
+  border-radius: var(--radius);
+  font-size: 1.6rem;
+  padding: 5px 15px;
+}

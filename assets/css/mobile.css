@@ -1,4 +1,7 @@
 @media (max-width: 1200px) {
+  html {
+    font-size: 20px;
+  }
   #slider.slider-price {
     position: relative;
   }
@@ -27,7 +30,7 @@
   }
 
   .promo-text {
-    top: 60vh;
+    top: 40vh;
     width: 80vw;
   }
 

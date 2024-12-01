@@ -146,5 +146,7 @@ let cursor = {
 };
 
 window.onload = function() {
+  if(document.body.clientWidth > 1200) {
     cursor.init();
+  }
 };
