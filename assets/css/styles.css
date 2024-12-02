@@ -364,7 +364,9 @@ body > footer {
   border-radius: var(--radius);
 }
 
-p.btn-center {
+a.btn-center {
+  position: relative;
+  z-index: 99;
   width: 100%;
   display: flex;
   justify-content: center;
