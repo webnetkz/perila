@@ -1,7 +1,4 @@
 @media (max-width: 1200px) {
-  html {
-    font-size: 20px;
-  }
   #slider.slider-price {
     position: relative;
   }
@@ -43,4 +40,66 @@
   /* .container {
     display: inherit;
   } */
+}
+
+@media (max-height: 3216px) and (max-width: 1440px) {
+  html {
+    font-size: 50px;
+  }
+
+  #slider.slider-price {
+    position: relative;
+  }
+
+  .promo-messangers {
+    display: none;
+  }
+
+  .video video {
+    max-width: 100%;
+  }
+
+  #slider > div.slider-price > p {
+    backdrop-filter: blur(33px);
+    margin-top: 6px;
+    border-radius: var(--radius);
+  }
+
+  #slider > .slider-container {
+    display: none;
+  }
+  
+  .content-container .content-item {
+    width: 100vw;
+    height: 90vh;
+  }
+
+  .promo-text {
+    top: 40vh;
+    width: 80vw;
+  }
+
+  body > footer {
+    text-align: center;
+    height: 400px;
+    justify-content: space-around;
+  }
+
+  .messangers {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    bottom: 2rem;
+    right: -200px;
+    z-index: var(--z-messangers);
+  }
+  
+  .messangers > a > img {
+    width: 150px;
+  }
+  
+  .messangers > a > img.telegram-icon {
+    margin-top: 18px;
+    width: 138px;
+  }
 }
