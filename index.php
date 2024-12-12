@@ -11,7 +11,8 @@ require_once './header.php';
 
     <div class="promo-header">
       <a href="tel:<?=$phoneLink;?>" class="promo-phone"><b><p>Связаться с нами</p> <?=$phone;?></b></a>
-      
+      <a href="https://instagram.com/<?=$instagram;?>" class="promo-instagram" target="_blank">Со всеми нашими проектами Вы можете ознакомиться в instagram <b>@<?=$instagram;?></b></a>
+
       <div class="promo-messangers">
         <a href="<?=$wp;?>" target="_blank">
           <img src="./assets/imgs/icons/whatsapp.png" alt="whatsapp">

@@ -3,6 +3,14 @@
     position: relative;
   }
 
+  .promo-header {
+    flex-direction: column;
+  }
+  .promo-instagram {
+    margin-top: 10px;
+    text-align: center;
+  }
+
   .promo-messangers {
     display: none;
   }
