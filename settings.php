@@ -8,7 +8,7 @@ $phoneLink = '+77772430333';
 $instagram = 'latun_detail_company';
 $site = 'Перила.kz';
 $wp = 'https://wa.me/77772430333';
-$telegram = 'https://t.me/smarkovich13';
+$telegram = 'https://t.me/perilakz';
 
 const TELEGRAM_TOKEN = '';
 const URL_DB = '127.0.0.1';
