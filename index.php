@@ -80,7 +80,8 @@ require_once './header.php';
   </div>
 </section>
 
-<a href="./галерея.php" class="btn-center">
+<a href="./галерея.php" class="btn-center"
+  style="position: fixed; bottom: 1rem;">
     <button class="btn">Перейти в галерею</button>
 </a>
 

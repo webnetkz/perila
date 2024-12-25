@@ -381,3 +381,7 @@ button.btn {
   font-size: 1.6rem;
   padding: 5px 15px;
 }
+.big-image img {
+  width: 100%;
+  border-radius: var(--radius);
+}

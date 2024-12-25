@@ -7,6 +7,9 @@ require_once './header.php';
 </a>
 
 <section id="content">
+  <div class="big-image">
+    <img src="./assets/imgs/content/ladder.jpeg" alt="Лестница и балясины перила.kz">
+  </div>
   <h2>Балясины</h2>
   <div class="content-container">
     <div class="content-item">
