@@ -86,6 +86,9 @@
       <div class="contacts">
         <a href="tel:<?=$phoneLink;?>" class="promo-phone"><b><p>Связаться с нами</p> <?=$phone;?></b></a>
       </div>
+      <div>
+        <a href="https://webnet.kz">WebNet</a>
+      </div>
       <div class="copyright">
         <a href="<?=$site;?>"><?=$site;?> <sup>©</sub></a> <?=date('Y');?>
       </div>
